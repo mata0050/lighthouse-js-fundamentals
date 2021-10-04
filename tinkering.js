@@ -15,3 +15,4 @@ console.log("I am 8. Which school should I go to?");
 console.log(whichSchool(12));
 console.log("I am 14. Which school should I go to?");
 console.log(whichSchool(19));
+
