@@ -16,3 +16,14 @@ console.log(whichSchool(12));
 console.log("I am 14. Which school should I go to?");
 console.log(whichSchool(19));
 
+const sayHelloToConsole  = function (name) {
+  console.log("Hello, " + name);
+}
+sayHelloToConsole('John'); 
+
+
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+const greeting = returnSayHello('John');
+console.log(greeting)
